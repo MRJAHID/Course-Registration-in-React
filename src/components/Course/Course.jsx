@@ -1,7 +1,8 @@
 import PropTypes from 'prop-types';
 import {IoBookOutline} from "react-icons/io5";
 
-const Course = ({index, handleCourseSelect, course}) => {
+
+const Course = ({handleCourseSelect, course}) => {
 
     return (
         <div className='w-full bg-white my-3 md:w-1/3 shadow-lg px-3.5 py-4 rounded'>

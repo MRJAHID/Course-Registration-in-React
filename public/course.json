@@ -3,72 +3,72 @@
     "id": "1",
     "image": "../src/assets/images/Rectangle 2.png",
     "course_title": "Introduction to Python Programming",
-    "course_credit": "3",
-    "price": "$49.99",
+    "course_credit": 4,
+    "price": 49.99,
     "details": "This course images the basics of Python programming language, including variables, loops, functions, and data structures."
   },
   {
     "id": "2",
     "image": "../src/assets/images/Rectangle 3.png",
     "course_title": "Web Development Fundamentals",
-    "course_credit": "2",
-    "price": "$29.99",
+    "course_credit": 1,
+    "price": 29.99,
     "details": "Learn the fundamentals of web development, including HTML, CSS, and JavaScript. Build your first website from scratch."
   },
   {
     "id": "3",
     "image": "../src/assets/images/Rectangle 2-2.png",
     "course_title": "Introduction to Machine Learning",
-    "course_credit": "4",
-    "price": "$69.99",
+    "course_credit": 3,
+    "price": 69.99,
     "details": "An introductory course to machine learning algorithms and techniques. images supervised and unsupervised learning."
   },
   {
     "id": "4",
     "image": "../src/assets/images/Rectangle 2-1.png",
     "course_title": "Graphic Design Essentials",
-    "course_credit": "2",
-    "price": "$39.99",
+    "course_credit": 2,
+    "price": 39.99,
     "details": "Learn the essentials of graphic design, including typography, color theory, and layout design."
   },
   {
     "id": "5",
     "image": "../src/assets/images/Rectangle 2-4.png",
     "course_title": "Digital Marketing Strategies",
-    "course_credit": "3",
-    "price": "$49.99",
+    "course_credit": 4,
+    "price": 49.99,
     "details": "Explore various digital marketing strategies, including SEO, social media marketing, and email campaigns."
   },
   {
     "id": "6",
     "image": "../src/assets/images/Rectangle 2-5.png",
     "course_title": "Introduction to Data Science",
-    "course_credit": "4",
-    "price": "$69.99",
+    "course_credit": 5,
+    "price": 69.99,
     "details": "An introductory course to data science, imageing data analysis, visualization, and basic machine learning concepts."
   },
   {
     "id": "7",
     "image": "../src/assets/images/Rectangle 2-6.png",
     "course_title": "Financial Planning for Beginners",
-    "course_credit": "2",
-    "price": "$29.99",
+    "course_credit": 10,
+    "price": 29.99,
     "details": "Learn the basics of financial planning, including budgeting, saving, and investing for the future."
   },
   {
     "id": "8",
     "image": "../src/assets/images/Rectangle 3-1.png",
     "course_title": "Photography Masterclass",
-    "course_credit": "3",
-    "price": "$59.99",
+    "course_credit": 3,
+    "price": 59.99,
     "details": "Master the art of photography, from understanding your camera to advanced composition techniques."
   },
   {
     "id": "9",
     "image": "../src/assets/images/Rectangle 2-3.png",
     "course_title": "Creative Writing Workshop",
-    "course_credit": "2",
-    "price": "$39.99",
+    "course_credit": 2,
+    "price": 39.99,
     "details": "Unlock your creativity with this workshop on creative writing. Learn storytelling techniques and how to develop compelling characters."
   }
 ]

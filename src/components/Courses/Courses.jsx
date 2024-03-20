@@ -23,7 +23,7 @@ const Courses = ({handleCourseSelect}) => {
             <div className='w-full flex flex-wrap'>
                 {/* Single Course loop */}
                 {
-                    courses.map((course, index) => <Course key={index} index={index} handleCourseSelect={handleCourseSelect} course={course} />)
+                    courses.map((course, index) => <Course key={index}  handleCourseSelect={handleCourseSelect} course={course} />)
                 }
             </div>
         </div>
