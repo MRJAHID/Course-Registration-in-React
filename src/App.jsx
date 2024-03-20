@@ -5,11 +5,15 @@ import CourseInvoice from "./components/CourseInvoice/CourseInvoice.jsx";
 
 function App() {
 
+    const handleCourseSelect  = (course) => {
+        console.log(course)
+    }
+
     return (
         <main className='max-w-6xl mx-auto p-4'>
             <Header/>
             <section className='flex justify-between'>
-                <Courses/>
+                <Courses handleCourseSelect={handleCourseSelect}/>
                 <CourseInvoice/>
             </section>
         </main>
