@@ -7,7 +7,7 @@ import {useState} from "react";
 function App() {
     const [selectedCourse, setSelectedCourse] = useState([]);
     const [courseCredit, setCourseCredit] = useState(0);
-    const [remainingCredit, setRemainingCredit] = useState(0);
+    const [remainingCredit, setRemainingCredit] = useState(20);
     const [price, setPrice] = useState(0);
 
 
@@ -30,12 +30,12 @@ function App() {
         }
 
         // Remaining Hour Condition
-        const remainingHour = 20 - courseCredit;
+        // const remainingHour = 20 - courseCredit;
 
-        if (remainingHour < 0) {
+        if (remainingCredit < 0) {
             console.log("Less than zero remaining")
         } else {
-            setRemainingCredit(Number(remainingHour));
+            setRemainingCredit(remainingCredit => remainingCredit - courseCredit);
         }
 
         // Plus Price
